@@ -1,1 +1,1 @@
-# C--Maximal
+# C++Maximal
