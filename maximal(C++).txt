@@ -1,3 +1,5 @@
+pertanyaannya 
+Buat program untuk mendata jarak tempuh dari rumah ke sekolah masing masing siswa kelas X. Cari nilai jarak yang paling besar/jauh. Keluaran dari program adalah seluruh nilai jarak serta nilai jarak dari rumah ke sekolah yang paling jauh.
 #include <iostream>
 using namespace std;
 int MaxValue(int bilangan[], int angka) {
@@ -11,13 +13,13 @@ int MaxValue(int bilangan[], int angka) {
 }
 int main() {
     int bilangan[5],hasil;
-    cout << "Masukkan 5 harga buah: " << endl;
+    cout << "Masukkan 5  jarak: " << endl;
     for (int i = 0; i < 5; i++) {
-        cout << "Masukkan harga buah ke-" << i + 1 << ": ";
+        cout << "Masukkan jarak ke-" << i + 1 << ": ";
         cin >> bilangan[i];
     }
     int max_value = MaxValue(bilangan,5);
-    cout << "Harga buah tertinggi adalah: " << max_value << endl;
+    cout << "jarak terjauh  adalah: " << max_value << endl;
 
     return 0;
 }
